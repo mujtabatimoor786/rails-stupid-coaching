@@ -1,0 +1,15 @@
+<div class="container mt-5">
+  <h1>Stupid Coaching</h1>
+
+  <div class="border-start border-4 ps-3 my-4">
+    <p class="mb-1"><%= @question %></p>
+    <p class="fst-italic text-muted mb-0">— You</p>
+  </div>
+
+  <div class="alert alert-warning border-start border-4 border-warning ps-3 my-4">
+    <p class="fw-bold mb-1"><%= @answer %></p>
+    <p class="fst-italic text-muted mb-0">— Your coach</p>
+  </div>
+
+  <%= link_to "Ask a new question", ask_path, class: "text-decoration-none" %>
+</div>
